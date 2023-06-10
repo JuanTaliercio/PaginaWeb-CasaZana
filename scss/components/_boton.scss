@@ -1,0 +1,21 @@
+.boton-promociones {
+    background-color: rgb(174, 238, 55);
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  
+  .boton-whatsapp {
+    @extend .boton-promociones;
+    background-color: green;
+    color: white;
+
+  }
