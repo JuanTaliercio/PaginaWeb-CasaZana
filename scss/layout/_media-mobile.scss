@@ -29,6 +29,34 @@
     @include Fuentes-Texto;
     width: 300px;
   }
+
+  
+.imagen-not {
+  margin: 10px;
+  width: 300px;
+  height: 200px;
+  background-image: url(../Images/Not2.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: all 1s;
+}
+
+.imagen-not:hover {
+  background-image: url(../Images/Not1.jpg);
+}
+  .icon-wpp {
+    width: 50px;
+    margin-bottom: 70px;
+  
+}
+  .IconoWhatsapp {
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+    z-index: 1;
+}
+
+
 }
 
 

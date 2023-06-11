@@ -37,13 +37,14 @@
     width: 900px;
     color: black;
     font-size: 25px;
+    margin-top: 60px;
   }
 
   .carousel-texto {
     display: flex;
     justify-content: space-between;
-    gap: 30px;
-    margin: 0 50px;
+    gap: 50px;
+    margin: 30px 50px;
   }
 
   main{
@@ -64,6 +65,35 @@
     margin: 20px;
     font-size: 35px;
   }
+
+  .imagen-not {
+    
+    margin: 50px 200px;
+    width: 700px;
+    height: 400px;
+    background-image: url(../Images/Not2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: all 1s;
+  }
+  
+  .imagen-not:hover {
+    background-image: url(../Images/Not1.jpg);
+  }
+  
+
+  .icon-wpp {
+    width: 50px;
+    margin-bottom: 150px;
+  
+}
+  .IconoWhatsapp {
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+    z-index: 1;
+}
+
 }
 
 /*CONTACTO*/
@@ -72,7 +102,7 @@
 
 
   .parrafo-contacto {
-    font-size: 60px;
+    font-size: 40px;
     display: flex;
     justify-content: center;
 

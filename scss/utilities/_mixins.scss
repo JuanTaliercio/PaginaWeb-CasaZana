@@ -23,4 +23,12 @@
     justify-content: center;
     width: 600px;
   }
-  
+
+  h3 {
+    @include NombrePaginas
+  }
+
+  @mixin Centro {
+    display: flex;
+    justify-content: center;
+  }
