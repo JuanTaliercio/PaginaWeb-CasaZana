@@ -14,6 +14,109 @@ body {
   background-color: white;
 }
 
+footer {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #77be87;
+  height: auto;
+  width: 100vw;
+  padding-top: 10px;
+  color: #fff;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.footer-content h3 {
+  font-size: 2.1rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  line-height: 3rem;
+  color: white;
+}
+.footer-content h4 {
+  font-size: 1rem;
+}
+.footer-content p {
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 15px;
+  color: rgb(5, 71, 25);
+}
+
+.socials {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+.socials li {
+  margin: 0 10px;
+}
+.socials a {
+  text-decoration: none;
+  color: #fff;
+  padding: 5px;
+}
+.socials i {
+  font-size: 2.1rem;
+}
+.socials a:hover i {
+  color: aqua;
+}
+
+.footer-bottom {
+  background: #5f835b;
+  width: 100vw;
+  padding: 20px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+.footer-bottom p {
+  float: left;
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+.footer-bottom a {
+  color: #44bae8;
+  font-size: 16px;
+  text-decoration: none;
+}
+.footer-bottom span {
+  text-transform: uppercase;
+  opacity: 0.4;
+  font-weight: 200;
+}
+
+.footer-menu {
+  float: right;
+}
+.footer-menu ul {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.footer-menu li {
+  padding-right: 10px;
+  display: block;
+}
+.footer-menu a {
+  color: #7c96b8;
+  text-decoration: none;
+  font-size: 20px;
+}
+.footer-menu a:hover {
+  color: #27bcda;
+}
+
 .LogoCasaZana {
   width: 80px;
   height: 80px;
@@ -82,18 +185,6 @@ body {
     margin: 20px;
     font-size: 35px;
   }
-  .imagen-not {
-    margin: 50px 200px;
-    width: 700px;
-    height: 400px;
-    background-image: url(../Images/Not2.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    transition: all 1s;
-  }
-  .imagen-not:hover {
-    background-image: url(../Images/Not1.jpg);
-  }
   .icon-wpp {
     width: 50px;
     margin-bottom: 150px;
@@ -115,6 +206,7 @@ body {
   .lista-contacto {
     font-size: 25px;
     text-align: center;
+    list-style-type: none;
   }
 }
 .mapa {
@@ -140,13 +232,16 @@ body {
     display: flex;
     justify-content: center;
     width: 300px;
+    height: auto;
     margin: auto;
     margin-bottom: 20px;
   }
   #listaMediosDePago {
-    margin: 20px 20px;
+    align-items: center;
     text-align: center;
-    font-size: 20px;
+    font-size: 25px;
+    list-style-type: none;
+    padding-left: 0px;
   }
   #pagaComoQuieras {
     margin: 20px;
@@ -215,18 +310,6 @@ body {
     width: 600px;
     width: 300px;
   }
-  .imagen-not {
-    margin: 10px;
-    width: 300px;
-    height: 200px;
-    background-image: url(../Images/Not2.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    transition: all 1s;
-  }
-  .imagen-not:hover {
-    background-image: url(../Images/Not1.jpg);
-  }
   .icon-wpp {
     width: 50px;
     margin-bottom: 70px;
@@ -236,6 +319,26 @@ body {
     right: 5px;
     bottom: 5px;
     z-index: 1;
+  }
+  .footer-menu {
+    float: right;
+  }
+  .footer-menu ul {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .footer-menu li {
+    padding-right: 10px;
+    display: block;
+  }
+  .footer-menu a {
+    color: #7c96b8;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  .footer-menu a:hover {
+    color: #27bcda;
   }
 }
 /*CONTACTO*/
@@ -252,6 +355,7 @@ body {
   .lista-contacto {
     margin-left: 10px;
     font-size: 15px;
+    list-style-type: none;
   }
   .mapa {
     margin: 10px;
@@ -259,6 +363,7 @@ body {
   }
   .mapa-formulario {
     display: block;
+    justify-content: center;
     margin: 0px;
   }
 }
@@ -272,9 +377,10 @@ body {
     margin-bottom: 20px;
   }
   #listaMediosDePago {
-    margin: 20px 20px;
     text-align: center;
     font-size: 20px;
+    list-style-type: none;
+    padding-left: 0px;
   }
   #pagaComoQuieras {
     margin: 20px;
@@ -330,18 +436,6 @@ body {
     justify-content: center;
     width: 600px;
   }
-  .imagen-not {
-    margin: 50px 70px;
-    width: 700px;
-    height: 400px;
-    background-image: url(../Images/Not2.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    transition: all 1s;
-  }
-  .imagen-not:hover {
-    background-image: url(../Images/Not1.jpg);
-  }
   .icon-wpp {
     width: 50px;
     margin-bottom: 80px;
@@ -363,6 +457,7 @@ body {
   .lista-contacto {
     font-size: 20px;
     text-align: center;
+    list-style-type: none;
   }
   .mapa {
     width: 400PX;
@@ -391,6 +486,8 @@ body {
     margin: 20px 20px;
     text-align: center;
     font-size: 20px;
+    list-style-type: none;
+    padding-left: 0px;
   }
   #pagaComoQuieras {
     margin: 20px;
@@ -483,7 +580,6 @@ h3 {
   margin-right: auto;
 }
 
-/*PRODUCTOS*/
 .grid-productos {
   margin: 30px 30px;
 }
@@ -496,39 +592,40 @@ form {
   border-radius: 1rem;
   margin-bottom: 20px;
 }
-
-ul {
+form ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-
 form li + li {
   margin-top: 1em;
 }
-
-label {
+form label {
   display: inline-block;
   width: 50px;
   text-align: right;
 }
-
-input,
-textarea {
+form input,
+form textarea {
   font: 1em sans-serif;
   width: 250px;
   box-sizing: border-box;
   border: 1px solid #999;
 }
-
-input:focus,
-textarea:focus {
+form input:focus,
+form textarea:focus {
   border-color: #000;
 }
-
-textarea {
+form textarea {
   vertical-align: top;
   height: 5em;
+}
+form button {
+  border-radius: 5px;
+  width: 100px;
+  color: black;
+  background-color: #5f835b;
+  align-items: center;
 }
 
 .button {
@@ -537,14 +634,6 @@ textarea {
   justify-content: center;
   color: #5f835b;
   margin-top: 10px;
-}
-
-button {
-  border-radius: 5px;
-  width: 100px;
-  color: black;
-  background-color: #5f835b;
-  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */

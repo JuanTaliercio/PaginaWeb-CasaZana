@@ -66,22 +66,6 @@
     font-size: 35px;
   }
 
-  .imagen-not {
-    
-    margin: 50px 200px;
-    width: 700px;
-    height: 400px;
-    background-image: url(../Images/Not2.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    transition: all 1s;
-  }
-  
-  .imagen-not:hover {
-    background-image: url(../Images/Not1.jpg);
-  }
-  
-
   .icon-wpp {
     width: 50px;
     margin-bottom: 150px;
@@ -111,6 +95,7 @@
   .lista-contacto {
     font-size: 25px;
     text-align: center;
+    list-style-type: none;
   }
 
 }
@@ -156,14 +141,19 @@
     display: flex;
     justify-content: center;
     width: 300px;
+    height: auto;
     margin: auto;
     margin-bottom: 20px;
   }
 
   #listaMediosDePago {
-    margin: 20px 20px;
+    align-items: center;
     text-align: center;
-    font-size: 20px;
+    font-size: 25px;
+    list-style-type: none;
+    padding-left: 0px;
+    
+
   }
 
   #pagaComoQuieras {
